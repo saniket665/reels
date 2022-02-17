@@ -1,0 +1,6 @@
+.video-styling {
+    width: 100%;
+    height: 75vh;
+    border-radius: 20px;
+    scroll-snap-align: start;
+}

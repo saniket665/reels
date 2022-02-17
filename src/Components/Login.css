@@ -1,0 +1,27 @@
+.Loginwrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Logincard {
+    width: 30vw;
+    margin-top: 10%;
+}
+
+.img-card {
+    width: 450px;
+    height: 600px;
+    position: relative;
+    margin-top: 1%;
+}
+
+.card {
+    position: absolute;
+    height: 600px;
+    width: 248px;
+    top: 96px;
+    left: 146px;
+}
+
+

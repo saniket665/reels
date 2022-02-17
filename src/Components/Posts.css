@@ -1,0 +1,83 @@
+.video-container {
+    width: 100%;
+    height: 75vh;
+    overflow: scroll;
+    background-color: white;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    border-radius: 20px;
+}
+
+.video-container::-webkit-scrollbar {
+    display: none;
+}
+
+.videos {
+    position: relative;
+}
+
+.fa {
+    position: absolute;
+    bottom: 6%;
+    left: 10%;
+}
+
+.fa h3 {
+    color: white;
+    margin-left: 0.6rem;
+    font-size: 1rem;
+}
+
+.icon-styling {
+    position: absolute;
+    bottom: 2%;
+    left: 12%;
+    cursor: pointer;
+}
+
+.like {
+    color: #e41737;
+}
+
+.unlike {
+    color: white;
+}
+
+.chat-styling {
+    position: absolute;
+    bottom: 2%;
+    left: 28%;
+    cursor: pointer;
+    color: white
+}
+
+.modal-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+ .video-modal {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-modal video {
+    height: 80vh;
+}
+
+.comment-modal {
+    width: 50%;
+    height: 100%;
+}
+
+.card1 {
+    height: 66vh;
+}
+
+.unlike2 {
+    color: black;
+}
